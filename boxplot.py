@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
-weights = [150, 160, 165, 170, 175, 180, 185, 190, 195, 200]
+
+weights = [30,20,10,15,5,10,25,35]
+
 plt.boxplot(weights)
-plt.title('Box Plot of Weights')
-plt.ylabel('Weight')
-plt.show()  
+
+plt.xlabel('Weights')
+plt.title('Box plot of box weights')
+
+plt.show()
