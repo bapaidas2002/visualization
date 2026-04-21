@@ -9,3 +9,4 @@ df = df.fillna(df.mean(numeric_only=True))
 
 print("\n--- Cleaned Data ---")
 print(df.to_string())
+print(df.mean())
